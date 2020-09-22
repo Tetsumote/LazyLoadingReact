@@ -18,7 +18,7 @@ class App extends Component {
       <>
         <button onClick={this.modeHandler}>Toggle Mode</button>
         {this.state.showPosts ? (
-          <Suspense fallback={<div>Loading...</div>}>
+          <Suspense fallback={<div>Loading.. .</div>}>
             <Posts />
           </Suspense>
         ) : (
